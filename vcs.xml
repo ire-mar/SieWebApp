@@ -6,6 +6,10 @@
           <option name="url" value="https://github.com/theraf01/Tech-Army" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Prathyushatirunahari/Summercamp1V2.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\prathyusha\PhpstormProjects" />
