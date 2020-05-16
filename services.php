@@ -16,9 +16,12 @@
 <body>
 <span><a href="index.php" class="btn btn-success " style="float: left;">HOME</a></span>
 <section class="my-5">
-    <div class="py-5">
-      <h2 class="text-center">Our SiE Activities</h2>
-  </div>
+  <div class="py-5">
+    <h2 class="text-center">Our SiE Activities</h2>
+
+  
+
+</div>
 
   <div class ="container-fluid">
   <div class ="row">
