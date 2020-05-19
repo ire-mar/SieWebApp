@@ -3,7 +3,7 @@
 <body>
 <head>
 
-<title></title>
+<title>Services</title>
 
 
  <meta charset="utf-8">
@@ -14,7 +14,7 @@
  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-<span><a href="index.php" class="btn btn-success " style="float: left;">HOME</a></span>
+<span><a href="index.html" class="btn btn-success " style="float: left;">HOME</a></span>
 <section class="my-5">
   <div class="py-5">
     <h2 class="text-center">Our SiE Activities</h2>
