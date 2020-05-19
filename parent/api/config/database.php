@@ -1,26 +1,16 @@
-<?php
-class Database{
- 
-    // specify your own database credentials
-    private $host = "localhost";
-    private $db_name = "phplearning";
-    private $username = "root";
-    private $password = "";
-    public $conn;
- 
-    // get the database connection
-    public function getConnection(){
- 
-        $this->conn = null;
- 
-        try{
-            $this->conn = new PDO("mysql:host=" . $this->host . ";dbname=" . $this->db_name, $this->username, $this->password);
-            $this->conn->exec("set names utf8");
-        }catch(PDOException $exception){
-            echo "Connection error: " . $exception->getMessage();
-        }
- 
-        return $this->conn;
-    }
+<?php 
+//create connection
+$conn = mysqli_connect('localhost','id13667961_sieparent','*&=K)5[TTR0Owoh~E','id13667961_sieparentlogin');
+
+//check connection
+
+if (!$conn) {
+    echo "connection failed: " . mysqli_connect_error()."<br>";
+    echo "connection error no: " . mysqli_connect_errno();
+
+} else {
+   // echo "connected successfuly";
 }
-?>
+
+
+ ?>

@@ -88,8 +88,13 @@ function Redirect_to($new_location) {
 				  <div class="form-group">
 				    Student Full Name:<input type="text" class="form-control" name="fullname" placeholder="full name" required>
 				  </div>
-				  <div class="form-group">
-				    Student Gender:<input type="text" class="form-control" name="studentgender" placeholder="gender" required>
+				 <div class="form-group">
+				   Student Gender:<select type="text" class="form-control" name="studentgender" placeholder="gender" required>
+				  					<option>GENDER</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Diverse</option>
+                                    </select>                                    
 				  </div>
 				   <div class="form-group">
 				    Date Of Birth:<input type="date" class="form-control" name="dateofbirth" placeholder="yyyy/mm/dd" required>
@@ -107,7 +112,8 @@ function Redirect_to($new_location) {
 				    Parent Phone No.:<input type="text" class="form-control" name="pphone" placeholder="Enter Parent Phone No." required>
 				  </div>
 				  <div class="form-group">
-				    Standard:<input type="number" class="form-control" name="standard" placeholder="Enter Student Standard" required>
+				    Standard:<input type="number" min="1" max="5" class="form-control" name="standard" placeholder="Enter Student Standard" required> 
+				    			
 				  </div>
 				  <div class="form-group">
 				    Activity:<input type="text" class="form-control" name="activity" placeholder="Enter Activity" required>

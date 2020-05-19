@@ -13,15 +13,13 @@
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
+    <body>
               <div class="jumbotron text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2>
-                                
-                          Admin login
-                          <span><a href="../index.html" class="btn btn-success " style="float: left;">HOME</a></span> 
-                            </h2>
+                            <h2>Admin Login</h2>
+                          <span><a href="../index.html" class="btn btn-success " style="float: left;">HOME</a></span>
                         </div>
                     </div>
                 </div>
@@ -31,19 +29,22 @@
                     <div class="row">
                         <div class="col-md-6 col-md-offset-3 jumbotron">
                             <form action="index.php" method="post">
-                              <div class="form-group">
+                                <div class="form-group">
                                   Username:<input type="text" class="form-control" name="user" placeholder=" Enter Username" required>
                               </div>
-                            <div class="form-group">
+                                <div class="form-group">
                                   Password:<input type="password" class="form-control" name="password" placeholder="Enter Passoword" required>
                             </div>
-                              <div class="form-group">
+                                <div class="form-group">
                                   <input type="submit" name="login" value="LOGIN" class="btn btn-success btn-block text-center" > 
                               </div> 
                             </form>
                         </div>
                     </div>
                 </div>
+            </div>    
+    </body>
+</html>                
 
 
 

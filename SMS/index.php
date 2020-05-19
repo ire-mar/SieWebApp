@@ -9,9 +9,9 @@
                 <div class="row">
                     <div class="col-md-12 jumbotron">
                             <h2 style="text-align: center;">
-                                WELCOME TO STUDENT MANAGEMENT SYSTEM
+                                WELCOME TO ADMIN DASHBOARD </h2>
+                                <span><a href="../SMS/login.php" class="btn btn-success " style="float: left;">Logout</a></span>
                                 <span style="float: right;"><a href="admindash.php" class="btn btn-info btn-lg"> Insert Student details</a></span>
-                            </h2>
                     </div>
                 </div>
             </div>
