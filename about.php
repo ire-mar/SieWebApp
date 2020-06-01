@@ -3,7 +3,7 @@
 <body>
 <head>
 
-<title>About us</title>
+<title></title>
 
 
  <meta charset="utf-8">
@@ -14,7 +14,7 @@
  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-<span><a href="index.html" class="btn btn-success " style="float: left;">HOME</a></span>
+
   
 <div class="jumbotron">
   <h1>Sport in Education</h1>
